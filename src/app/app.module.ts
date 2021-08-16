@@ -16,7 +16,9 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatChipsModule } from '@angular/material/chips';
-
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 @NgModule({
   declarations: [AppComponent, TableComponent],
   imports: [
@@ -25,12 +27,15 @@ import { MatChipsModule } from '@angular/material/chips';
     BrowserAnimationsModule,
     ReactiveFormsModule,
     FormsModule,
+    MatSlideToggleModule,
     MatTableModule,
     MatButtonModule,
     MatIconModule,
     MatDialogModule,
     MatFormFieldModule,
+    MatCheckboxModule,
     MatInputModule,
+    MatProgressBarModule,
     MatSnackBarModule,
     MatMenuModule,
     MatChipsModule,
