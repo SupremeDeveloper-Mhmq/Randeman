@@ -1,0 +1,28 @@
+.AddButton {
+  margin-right: 25%;
+  margin-left: 45%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.container {
+  display: inline;
+  max-height: 600px !important;
+}
+table {
+  width: 100% !important;
+  padding: 3% !important;
+  border: 2px !important;
+  border-color: gray !important;
+  border-radius: 15% !important;
+  overflow-x: scroll !important;
+}
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: scroll;
+
+  .mat-row,
+  .mat-header-row {
+    display: table-row;
+  }
+}
